@@ -1,12 +1,12 @@
 ~ _This post explores how you can create your own generative art in the web browser using functional programming in the ClojureScript programming language._ ~
 
-Creative programming is about writing code to create an expression rather than developing functionality that is nescessarily otherwise usable. It's an enjoyable process, that can be used to create all kinds of art pieces, be it still images, animations, music etc. It is also a great framework for learning new programming languages.
+Creative programming is about writing code to create an expression rather than developing some kind of functionality. It's an enjoyable process that can be used to create all kinds of art pieces, be it still images, animations, music etc. It's also a great framework for learning new programming languages.
 
 ClojureScript, or cljs for short, is a Lisp that compiles to javascript. It's a dynamic, functional programming language with great support for an interactive development process, making it a perfect fit for the type of explorative, creative programming that generative art often resemble.
 
-The art piece we will be making here is one based on a Perlin flow noise field. It uses [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise) to move some thousand particles across the screen in an organic looking fashion. As opposed to white noise, Perlin noise is a controlled type of noise, where two values drawn from close to each other in the noise map will have similar, but still random values.
+We will create an art piece based on a Perlin noise flow field. It uses [Perlin noise](https://en.wikipedia.org/wiki/Perlin_noise) to move some thousand particles across the screen in an organic looking fashion. As opposed to white noise, Perlin noise is a controlled type of noise where two values drawn from close to each other in the noise map will have similar, but still random values.
 
-We will be using a library called [Quil](http://quil.info/) for creating a
+We will be using a library called [Quil](http://quil.info/) to create a
 drawing using the browser canvas api, along with a library called
 [Figwheel](https://figwheel.org/) for building and hot loading the code as it
 evolves.
