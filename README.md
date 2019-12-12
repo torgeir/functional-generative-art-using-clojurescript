@@ -175,7 +175,7 @@ This is what we get.
 
 ![a bunch of tiny circles](https://p196.p4.n0.cdn.getcloudapp.com/items/JruwJz4q/perlin-1.png?v=6c2e9591166f52a233174665c0703bfb)
 
-[Try it yourself](http://quil.info/sketches/show/71aaa57fc161c46eaee780492f2d24cd569e6add2d157d6e5556657d6d31ff54)
+[Try it yourself](http://quil.info/sketches/show/c686a76ad8533e29de3459a604be2424658efa1a1667a4f5ec098b2f5520fb9f)
 
 Already it's starting to look good, albeit static. Let's fix that.
 
