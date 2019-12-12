@@ -204,7 +204,7 @@ Look! It's moving.
 
 ![a bunch of tiny circles moving across the screen](https://p196.p4.n0.cdn.getcloudapp.com/items/wbuelrgQ/perlin-2.gif?v=4752831353cef01ccb8d14eb8e0ad32a)
 
-[Try it yourself](http://quil.info/sketches/show/aab6f930a07211cc518609643b3b2def4baec09011e7bf983468144e6972d72c)
+[Try it yourself](http://quil.info/sketches/show/e04f085aef191095ef204ad6e516f6d4cd82d719c14c679a68196e62daa46778)
 
 Simply by removing the one line of code from the draw function that clears the background we see a radically different expression in our drawing. If you are coding along you would be starting to feel the effects that this kind of short feedback loop setup can have.
 
