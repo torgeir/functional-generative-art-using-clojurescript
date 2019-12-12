@@ -138,7 +138,6 @@ The state for this sketch will hold a vector of these particles, created by mapp
 (defn sketch-setup
   "Returns the initial state to use for the update-render loop."
   []
-  (apply q/background (:background palette))
   (map particle (range 0 2000)))
 ```
 
