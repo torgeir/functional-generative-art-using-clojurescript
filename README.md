@@ -223,7 +223,7 @@ Simply by removing the one line of code from the draw function that clears the b
 
 The circles become lines!
 
-Rest assured, the [circles are really moving](http://quil.info/sketches/show/c69b01d3f7f98c8b5aeb3ba741c61434549aef5da4829e01047bb9ef96ce07cf), but my gifs were getting huge due to the poorly compressable content!
+Rest assured, the [circles are really moving](http://quil.info/sketches/show/9c8f533dbb319231922326e2eed19ecaa037df085e1e871a8ee2163b2a91b0e1), but my gifs were getting huge due to the poorly compressable content!
 
 Changing around each particle's speed by a random amount between `[-0.5, 0.5]` and capping it at 2 renders a rather busy result.
 
